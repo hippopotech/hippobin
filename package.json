@@ -1,0 +1,29 @@
+{
+	"name": "hippobin",
+	"version": "0.0.4",
+	"private": true,
+	"description": "A simple pastebin service with syntax highlighting.",
+	"keywords": [
+		"paste",
+		"pastebin",
+		"haste",
+		"hippobin",
+		"code",
+		"syntax highlighting"
+	],
+	"author": {
+		"name": "Hipopotech",
+		"email": "info@hipopotech.com",
+		"url": "https://hipopotech.com"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"clean-css": "~3.4.19",
+		"express": "~4.14.0",
+		"uglify-js": "~2.7.0",
+		"winston": "~2.2.0"
+	},
+	"scripts": {
+		"start": "node ./server.js"
+	}
+}

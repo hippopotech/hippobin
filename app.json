@@ -1,0 +1,15 @@
+{
+	"name": "Hippobin",
+	"description": "A simple, fast and lightweight pastebin service with syntax highlighting.",
+	"repository": "https://github.com/hippopotech/hippobin",
+	"logo": "logo.png",
+	"keywords": [
+		"node",
+		"hippobin",
+		"paste",
+		"pastebin",
+		"haste",
+		"code",
+		"syntax highlighting"
+	]
+}
