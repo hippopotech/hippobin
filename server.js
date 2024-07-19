@@ -20,7 +20,6 @@ logger.info('Welcome to Hippobin!');
 
 // init file-storage
 var fileStorage = new FileStorage(config.dataPath);
-
 // load static documents into file-storage
 for (var name in config.documents) {
 	var path = config.documents[name];
