@@ -6,8 +6,8 @@ var fs = require('fs');
 var express = require('express');
 var logger = require('winston');
 
-var DocumentHandler = require('../lib/document_handler.js');
-var FileStorage = require('../lib/file_storage.js');
+var DocumentHandler = require('./lib/document_handler.js');
+var FileStorage = require('./lib/file_storage.js');
 
 // load configuration
 var config = JSON.parse(fs.readFileSync(__dirname + '/config.json', 'utf8'));

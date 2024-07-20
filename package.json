@@ -24,6 +24,6 @@
 		"winston": "~2.2.0"
 	},
 	"scripts": {
-		"start": "node api/index.js"
+		"start": "node ./server.js"
 	}
 }
